@@ -10,5 +10,5 @@ require __DIR__ . '/vendor/autoload.php';
 use App\imageParse;
 
 $obj = new imageParse();
-$obj->setUrl('https://www.listerine.com.cn/');
-$obj->getImgReferenses();
+$obj->setUrl('http://xandeadx.ru/');
+$obj->getHtml();

@@ -9,8 +9,6 @@
 namespace App;
 
 require $_SERVER['DOCUMENT_ROOT'] . '/vendor/autoload.php';
-//include '/home/developer/imgparser/vendor/simple-html-dom/simple-html-dom/simple_html_dom.php';
-
 
 class imageParse
 {
@@ -36,12 +34,22 @@ class imageParse
     $this->directory = $directory;
   }
 
+  public function getHtml() {
+    $ch = curl_init($this->url);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_BINARYTRANSFER, true);
+    $content = curl_exec($ch);
+    var_dump($content);
+    curl_close($ch);
+  }
+
   public function getImgReferenses() {
-    $instance = new \simple_html_dom();
-    echo 3;
-    /*$html = file_get_html($this->url);
-    $imgArray = $html->find('img');
-    var_dump($imgArray);*/
+    $dom = new \DOMDocument;
+    $dom->loadHTML($this->url);
+      var_dump($dom->getElementsByTagName('a'));
+    /*foreach ($dom->getElementsByTagName('a') as $node) {
+      echo $dom->saveHtml($node), PHP_EOL;
+    }*/
   }
 
 
