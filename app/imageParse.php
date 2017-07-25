@@ -8,7 +8,7 @@
  */
 namespace App;
 
-require __DIR__.'/../vendor/autoload.php';
+require '/home/developer/imgparser/vendor/autoload.php';
 
 class imageParse
 {
@@ -36,8 +36,9 @@ class imageParse
 
   public function getImgReferenses() {
     $html = new simple_html_dom();
-    $html = file_get_html($this->url);
-    $imgArray = $html->find('img');
+    echo 'nik';
+    /*$html = file_get_html($this->url);
+    $imgArray = $html->find('img');*/
   }
 
 

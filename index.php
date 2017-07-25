@@ -5,7 +5,11 @@
  * Date: 7/24/17
  * Time: 11:07 PM
  */
+require __DIR__.'/vendor/autoload.php';
 
 use App\imageParse;
-phpinfo();
-var_dump();
+
+
+$obj = new imageParse();
+$obj->setUrl('https://www.listerine.com.cn/');
+$obj->getImgReferenses();
