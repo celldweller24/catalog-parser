@@ -8,4 +8,9 @@
       "url": "https://github.com/Youpie/simple-html-dom"
     }
   ],
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    }
+  }
 }

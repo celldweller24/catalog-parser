@@ -1,73 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ba4e6748-b911-4874-8f8f-30d750efceb0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/app/js/images/treeview-default-line.gif" afterPath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/app/js/images/treeview-default-line.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/app/js/images/treeview-default.gif" afterPath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/app/js/images/treeview-default.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/manual/img/tab.png" afterPath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/manual/img/tab.png" />
+    <list default="true" id="794bc0f1-b0e1-49e2-9e11-225e7195f48d" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/autoload.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/imgParse.iml" afterPath="$PROJECT_DIR$/.idea/imgParse.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/imageParse.php" afterPath="$PROJECT_DIR$/app/imageParse.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/imagesList.json" afterPath="$PROJECT_DIR$/imagesList.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/autoload.php" afterPath="$PROJECT_DIR$/vendor/autoload.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/LICENSE" afterPath="$PROJECT_DIR$/vendor/composer/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/installed.json" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/.gitignore" afterPath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/README.md" afterPath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/app/google.htm" afterPath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/app/google.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/app/index.php" afterPath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/app/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/app/js/jquery.js" afterPath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/app/js/jquery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/app/js/jquery.treeview.css" afterPath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/app/js/jquery.treeview.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/app/js/jquery.treeview.js" afterPath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/app/js/jquery.treeview.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/app/js/screen.css" afterPath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/app/js/screen.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/change_log.txt" afterPath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/change_log.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/composer.json" afterPath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/example/example_advanced_selector.php" afterPath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/example/example_advanced_selector.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/example/example_basic_selector.php" afterPath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/example/example_basic_selector.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/example/example_callback.php" afterPath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/example/example_callback.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/example/example_extract_html.php" afterPath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/example/example_extract_html.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/example/example_modify_contents.php" afterPath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/example/example_modify_contents.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/example/scraping/example_scraping_digg.php" afterPath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/example/scraping/example_scraping_digg.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/example/scraping/example_scraping_imdb.php" afterPath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/example/scraping/example_scraping_imdb.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/example/scraping/example_scraping_slashdot.php" afterPath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/example/scraping/example_scraping_slashdot.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/example/simple_html_dom_utility.php" afterPath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/example/simple_html_dom_utility.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/manual/css/default.css" afterPath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/manual/css/default.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/manual/css/ui.tabs.css" afterPath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/manual/css/ui.tabs.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/manual/js/jquery-1.2.3.pack.js" afterPath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/manual/js/jquery-1.2.3.pack.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/manual/js/ui.tabs.pack.js" afterPath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/manual/js/ui.tabs.pack.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/manual/manual.htm" afterPath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/manual/manual.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/manual/manual_api.htm" afterPath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/manual/manual_api.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/manual/manual_faq.htm" afterPath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/manual/manual_faq.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/simple_html_dom.php" afterPath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/simple_html_dom.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/testcase/all_test.php" afterPath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/testcase/all_test.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/testcase/callback_testcase.php" afterPath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/testcase/callback_testcase.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/testcase/dom_testcase.php" afterPath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/testcase/dom_testcase.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/testcase/element_testcase.php" afterPath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/testcase/element_testcase.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/testcase/invalid_testcase.php" afterPath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/testcase/invalid_testcase.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/testcase/jquery-1.2.3.pack.js" afterPath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/testcase/jquery-1.2.3.pack.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/testcase/mass_test.php" afterPath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/testcase/mass_test.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/testcase/memory_test.php" afterPath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/testcase/memory_test.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/testcase/misc_testcase.php" afterPath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/testcase/misc_testcase.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/testcase/performance_test.php" afterPath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/testcase/performance_test.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/testcase/reader/all_test.php" afterPath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/testcase/reader/all_test.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/testcase/reader/element_testcase.php" afterPath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/testcase/reader/element_testcase.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/testcase/reader/memory_test.php" afterPath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/testcase/reader/memory_test.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/testcase/reader/performance_test.php" afterPath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/testcase/reader/performance_test.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/testcase/reader/selector_testcase.php" afterPath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/testcase/reader/selector_testcase.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/testcase/selector_testcase.php" afterPath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/testcase/selector_testcase.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/testcase/slick_test.php" afterPath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/testcase/slick_test.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/testcase/slickspeed.htm" afterPath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/testcase/slickspeed.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/testcase/std_testcase.php" afterPath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/testcase/std_testcase.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/testcase/strip_testcase.php" afterPath="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/testcase/strip_testcase.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -78,36 +20,22 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="imageParse.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/imageParse.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="10" column="34" lean-forward="false" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-              <folding>
-                <element signature="e#7#93#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf>
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-              <folding>
-                <marker date="1500968869518" expanded="true" signature="182:254" ph="..." />
-              </folding>
+            <state relative-caret-position="228">
+              <caret line="12" column="46" lean-forward="true" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="autoload.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/autoload.php">
+      <file leaf-file-name="imageParse.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/imageParse.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="266">
+              <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -116,18 +44,8 @@
       <file leaf-file-name="composer.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/composer.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="imagesList.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imagesList.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="285">
+              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -135,40 +53,15 @@
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="package_json" />
-      </list>
-    </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>require __DIR__.'/../vendor/autoload.php';</find>
-      <find>html = new simple_html_dom();</find>
-      <find>new simple_html_dom();</find>
-      <find>new simple_html_dom()</find>
-      <find>new simple_html_dom(</find>
-      <find>new simple_html_dom</find>
-      <find>ew simple_html_dom</find>
-      <find>simple_html_dom</find>
-      <find>simple_html_dom</find>
-    </findStrings>
-    <dirStrings>
-      <dir>$PROJECT_DIR$/vendor/simple-html-dom</dir>
-    </dirStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/autoload.php" />
-        <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/app/imageParse.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
       </list>
     </option>
   </component>
@@ -201,7 +94,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -224,18 +116,17 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -289,12 +180,6 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -323,43 +208,38 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ba4e6748-b911-4874-8f8f-30d750efceb0" name="Default" comment="" />
-      <created>1500918037279</created>
+      <changelist id="794bc0f1-b0e1-49e2-9e11-225e7195f48d" name="Default" comment="" />
+      <created>1500985610128</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1500918037279</updated>
-      <workItem from="1500918038414" duration="547000" />
-      <workItem from="1500918604839" duration="72000" />
-      <workItem from="1500918694931" duration="4301000" />
-      <workItem from="1500927477622" duration="88000" />
-      <workItem from="1500928114535" duration="702000" />
-      <workItem from="1500966880735" duration="2286000" />
+      <updated>1500985610128</updated>
+      <workItem from="1500985611348" duration="2513000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7996000" />
+    <option name="totallyTimeSpent" value="2513000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26545843" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -374,195 +254,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/imageParse.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="16" />
-          <folding>
-            <element signature="e#7#93#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imagesList.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/autoload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="10" column="11" lean-forward="true" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-          <folding>
-            <marker date="1500968869518" expanded="true" signature="182:254" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/imageParse.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="39" column="35" lean-forward="false" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
-          <folding>
-            <element signature="e#7#93#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imagesList.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/autoload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="8" column="10" lean-forward="false" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-          <folding>
-            <marker date="1500968869518" expanded="true" signature="182:254" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/imageParse.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#7#93#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <marker date="1500968869518" expanded="true" signature="182:254" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imagesList.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/autoload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/imageParse.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#7#93#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/imageParse.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#7#93#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/imageParse" />
-    <entry file="file://$PROJECT_DIR$/package.json" />
     <entry file="file://$PROJECT_DIR$/composer.lock">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_real.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/autoload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/autoload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="58" />
           <folding />
         </state>
       </provider>
@@ -577,21 +272,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-          <folding>
-            <marker date="1500968869518" expanded="true" signature="182:254" ph="..." />
-          </folding>
+        <state relative-caret-position="228">
+          <caret line="12" column="46" lean-forward="true" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/imageParse.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="10" column="34" lean-forward="false" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-          <folding>
-            <element signature="e#7#93#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="266">
+          <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>

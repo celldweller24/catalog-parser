@@ -8,7 +8,9 @@
  */
 namespace App;
 
-require '/home/developer/imgparser/vendor/autoload.php';
+require $_SERVER['DOCUMENT_ROOT'] . '/vendor/autoload.php';
+//include '/home/developer/imgparser/vendor/simple-html-dom/simple-html-dom/simple_html_dom.php';
+
 
 class imageParse
 {
@@ -35,10 +37,11 @@ class imageParse
   }
 
   public function getImgReferenses() {
-    $html = new simple_html_dom();
-    echo 'nik';
+    $instance = new \simple_html_dom();
+    echo 3;
     /*$html = file_get_html($this->url);
-    $imgArray = $html->find('img');*/
+    $imgArray = $html->find('img');
+    var_dump($imgArray);*/
   }
 
 
