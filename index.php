@@ -10,5 +10,4 @@ require __DIR__ . '/vendor/autoload.php';
 use App\imageParse;
 
 $obj = new imageParse();
-$obj->setUrl('http://xandeadx.ru/');
-$obj->getHtml();
+$obj->run('https://www.adzuna.pl/');

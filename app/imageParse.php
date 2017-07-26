@@ -13,43 +13,70 @@ require $_SERVER['DOCUMENT_ROOT'] . '/vendor/autoload.php';
 class imageParse
 {
   /**
-   * @var string
-   *
    * Source url.
+   * @var string
    */
-  protected $url;
+  private $url;
 
   /**
-   * @var string
-   *
-   * Directory of parsed images.
+   * set url.
+   * @param string $url
    */
-  private $directory;
-
-  public function setUrl($url) {
+  private function setUrl($url) {
     $this->url = $url;
   }
 
-  public function setDirectory($directory) {
-    $this->directory = $directory;
+  /**
+   * get url.
+   * @return string
+   */
+  protected function getUrl() {
+    return $this->url;
   }
 
-  public function getHtml() {
+  /**
+   * start function.
+   * @param string $url
+   */
+  public function run($url) {
+    $this->setUrl($url);
+    $this->writeSrcList();
+  }
+
+  /**
+   * get html markup of source.
+   * @return string
+   */
+  protected function getContent() {
     $ch = curl_init($this->url);
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
     curl_setopt($ch, CURLOPT_BINARYTRANSFER, true);
     $content = curl_exec($ch);
-    var_dump($content);
     curl_close($ch);
+    return $content;
   }
 
-  public function getImgReferenses() {
+  public function writeSrcList() {
+    $srcArray = [];
     $dom = new \DOMDocument;
-    $dom->loadHTML($this->url);
-      var_dump($dom->getElementsByTagName('a'));
-    /*foreach ($dom->getElementsByTagName('a') as $node) {
-      echo $dom->saveHtml($node), PHP_EOL;
-    }*/
+    $dom->loadHTML($this->getContent());
+    foreach ($dom->getElementsByTagName('img') as $node) {
+      if (!preg_match('/^(http:\/\/|https:\/\/)/', $node->getAttribute('src'))) {
+        $srcArray[] = $node->getAttribute('src');
+      }
+    }
+    if (!empty($srcArray)) {
+      $json = json_encode($srcArray);
+      try {
+        if (file_put_contents($_SERVER['DOCUMENT_ROOT'] . '/imagesList.json', $json) == false) {
+          throw new \Exception('Data weren\'t wrote into imagesList.json');
+        }
+      }
+      catch(Exception $e) {
+        echo $e->getMessage();
+        return false;
+      }
+    }
   }
 
 
