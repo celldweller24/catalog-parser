@@ -7,7 +7,7 @@
  */
 require __DIR__ . '/vendor/autoload.php';
 
-use App\imageParse;
+use App\contentParse;
 
-$obj = new imageParse();
+$obj = new contentParse();
 $obj->run('https://www.adzuna.pl/');

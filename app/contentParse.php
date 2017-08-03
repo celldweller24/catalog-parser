@@ -10,9 +10,9 @@ namespace App;
 
 require $_SERVER['DOCUMENT_ROOT'] . '/vendor/autoload.php';
 
-use Masterminds\HTML5;
+use Sunra\PhpSimple\HtmlDomParser;
 
-class imageParse
+class contentParse
 {
   /**
    * Source url.
@@ -42,6 +42,7 @@ class imageParse
    */
   public function run($url) {
     $this->setUrl($url);
+    $this->collectContent();
     $this->writeSrcList();
   }
 
@@ -49,7 +50,7 @@ class imageParse
    * get html markup of source.
    * @return string
    */
-  protected function getContent() {
+  protected function getSourceMarkup() {
     $ch = curl_init($this->url);
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
     curl_setopt($ch, CURLOPT_BINARYTRANSFER, true);
@@ -58,14 +59,16 @@ class imageParse
     return $content;
   }
 
-  public function writeSrcList() {
+  protected function collectContent() {
     $elementSource = [];
-    $dom = new HTML5();
-    $temp = $dom->loadHTML($this->getContent());
-    //var_dump($temp->getElementsByTagName('img'));
-    foreach ($temp->getElementsByTagName('img') as $node) {
-      print_r($node->getAttribute('src'));
+    $dom = HtmlDomParser::str_get_html($this->getSourceMarkup());
+    foreach ($dom->find('img') as $node) {
+      print_r($node->src);
     }
+  }
+
+  public function writeSrcList() {
+
     /*foreach ($dom->getElementsByTagName('img') as $node) {
       if (!preg_match('/^(http:\/\/|https:\/\/)/', $node->getAttribute('src'))) {
         $srcArray[] = $node->getAttribute('src');
