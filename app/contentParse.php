@@ -8,48 +8,46 @@
  */
 namespace App;
 
-require $_SERVER['DOCUMENT_ROOT'] . '/vendor/autoload.php';
-
 use Sunra\PhpSimple\HtmlDomParser;
 
 class contentParse
 {
-  /**
-   * Source url.
-   * @var string
-   */
   private $url;
 
-  /**
-   * set url.
-   * @param string $url
-   */
-  private function setUrl($url) {
-    $this->url = $url;
+  private $pathToCatalog;
+
+  private $targetSelectors;
+
+  public function getSpecConfig() {
+    $options = json_decode(file_get_contents($_SERVER['DOCUMENT_ROOT'] . '/config.json'));
+    try {
+      if (!$options) {
+        throw new \Exception('Configs wasn\'t extracted from config.json');
+      }
+    }
+    catch(Exception $e) {
+      echo $e->getMessage();
+      return false;
+    }
+
+    $this->url = $options->url;
+    $this->pathToCatalog = $options->path_to_catalog;
+    $selectorsArray = [];
+    foreach ($options->selectors as $key => $selector) {
+      $selectorsArray[$key] = $selector;
+    }
+    $this->targetSelectors = $selectorsArray;
   }
 
-  /**
-   * get url.
-   * @return string
-   */
-  protected function getUrl() {
-    return $this->url;
+  private function getAllTargetPages() {
+    $pagesList = [];
+    $urlLength = strlen($this->pathToCatalog);
+    if (($urlLength - 1) == strripos($this->pathToCatalog, '/')) {
+      $this->pathToCatalog = substr($this->pathToCatalog, 0, $urlLength - 1);
+    }
+    $catalogUri = explode('/', $this->pathToCatalog);
   }
 
-  /**
-   * start function.
-   * @param string $url
-   */
-  public function run($url) {
-    $this->setUrl($url);
-    $this->collectContent();
-    $this->writeSrcList();
-  }
-
-  /**
-   * get html markup of source.
-   * @return string
-   */
   protected function getSourceMarkup() {
     $ch = curl_init($this->url);
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
@@ -59,7 +57,7 @@ class contentParse
     return $content;
   }
 
-  protected function collectContent() {
+  protected function collectCatalogElement() {
     $elementSource = [];
     $dom = HtmlDomParser::str_get_html($this->getSourceMarkup());
     foreach ($dom->find('img') as $node) {
@@ -67,7 +65,7 @@ class contentParse
     }
   }
 
-  public function writeSrcList() {
+  private function writeElementList(array $targetSelectors) {
 
     /*foreach ($dom->getElementsByTagName('img') as $node) {
       if (!preg_match('/^(http:\/\/|https:\/\/)/', $node->getAttribute('src'))) {
@@ -89,5 +87,8 @@ class contentParse
     }*/
   }
 
-
+  public function run() {
+    $this->getSpecConfig();
+    //$this->writeSrcList();
+  }
 }

@@ -10,4 +10,5 @@ require __DIR__ . '/vendor/autoload.php';
 use App\contentParse;
 
 $obj = new contentParse();
-$obj->run('https://www.adzuna.pl/');
+$obj->getSpecConfig();
+//$obj->run();

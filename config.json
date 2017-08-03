@@ -1,0 +1,11 @@
+{
+  "url" : "https://fermer.ru/",
+  "path_to_catalog": "https://fermer.ru/board",
+  "selectors": {
+    "title": ".l-main .l-content h1",
+    "decription": "",
+    "phone": "",
+    "email": "",
+    "img": ""
+  }
+}
