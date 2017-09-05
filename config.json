@@ -1,11 +1,17 @@
 {
   "url" : "https://fermer.ru/",
-  "path_to_catalog": "https://fermer.ru/board",
-  "selectors": {
-    "title": ".l-main .l-content h1",
-    "decription": "",
-    "phone": "",
-    "email": "",
-    "img": ""
+  "path_to_catalog": "https://fermer.ru/board/",
+  "target_urls": {
+    "ptizevodstvo": "https://fermer.ru/board?field_sale_category_tid%5B%5D=95&field_sale_region_tid%5B%5D=6179&title=&type_1%5B%5D=sale",
+    "zivotnovodstvo": "https://fermer.ru/board?field_sale_category_tid%5B%5D=10463&field_sale_region_tid%5B%5D=6179&title=&type_1%5B%5D=sale",
+    "produkcia": "https://fermer.ru/board?field_sale_category_tid%5B%5D=91&field_sale_region_tid%5B%5D=6179&title=&type_1%5B%5D=sale",
+    "uslugi": "https://fermer.ru/board?field_sale_category_tid%5B%5D=315&field_sale_region_tid%5B%5D=6179&title=&type_1%5B%5D=sale",
+    "rastenievodstvo": "https://fermer.ru/board?field_sale_category_tid%5B%5D=10466&field_sale_region_tid%5B%5D=6179&title=&type_1%5B%5D=sale",
+    "zivotnie": "https://fermer.ru/board?field_sale_category_tid%5B%5D=100&field_sale_region_tid%5B%5D=6179&title=&type_1%5B%5D=sale",
+    "korma": "https://fermer.ru/board?field_sale_category_tid%5B%5D=44&field_sale_region_tid%5B%5D=6179&title=&type_1%5B%5D=sale",
+    "oborudovanie": "https://fermer.ru/board?field_sale_category_tid%5B%5D=372&field_sale_region_tid%5B%5D=6179&title=&type_1%5B%5D=sale",
+    "selhoztehnika": "https://fermer.ru/board?field_sale_category_tid%5B%5D=316&field_sale_region_tid%5B%5D=6179&title=&type_1%5B%5D=sale",
+    "semena": "https://fermer.ru/board?field_sale_category_tid%5B%5D=40&field_sale_region_tid%5B%5D=6179&title=&type_1%5B%5D=sale",
+    "nedvizimost": "https://fermer.ru/board?field_sale_category_tid%5B%5D=92&field_sale_region_tid%5B%5D=6179&title=&type_1%5B%5D=sale"
   }
 }

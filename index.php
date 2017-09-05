@@ -8,7 +8,5 @@
 require __DIR__ . '/vendor/autoload.php';
 
 use App\contentParse;
-
 $obj = new contentParse();
-$obj->getSpecConfig();
-//$obj->run();
+$obj->run();
